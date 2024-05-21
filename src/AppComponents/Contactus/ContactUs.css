@@ -1,0 +1,147 @@
+.contactus{
+    position: relative;
+    
+}
+
+.top{
+    margin-top:10px;
+    margin-right: 10px;
+    height:40px;
+    width: 43.5%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(246, 246, 246);
+    padding-left: 10px;
+}
+.section1{
+    top: 70px;
+    width: 600px;
+    height: 500px;
+    margin-left: 250px;
+    position: absolute;
+}
+.section1 h1{
+    font-weight:bolder;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 190px;
+}
+
+
+.section2{
+    top: 265px;
+    width: 600px;
+    height: 500px;
+    margin-left: 250px;
+    position: absolute;
+}
+.list{
+    margin-top:10px;
+    margin-right: 10px;
+    height:40px;
+    width: 91%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(246, 246, 246);
+    padding-left: 10px;
+}
+
+.message{
+    margin-top:10px;
+    margin-right: 10px;
+    height:10px;
+    width: 91%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(246, 246, 246);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 90px;
+}
+.upload{
+    margin-top:10px;
+    margin-right: 10px;
+    height:40px;
+    width: 91%;
+    border-radius: 5px;
+    border:dashed  rgb(172, 172, 172);
+    background-color: rgb(246, 246, 246);
+    padding-left: 10px;
+    
+}
+.submit{
+    margin-top:10px;
+    margin-right: 10px;
+    height:40px;
+    width: 91%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(17, 17, 17);
+    padding-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .top {
+      width: 100%; 
+      
+    }
+  
+    .section1,
+    .section2 {
+      width: 90%; 
+      margin-left: 20px;
+    }
+    .section2{
+        top:140px;
+        width:99%;
+        margin-left: 20px;
+    }
+    .section1{
+        top: -150px;
+    }
+    .section1 h1{
+        margin-left: 120px;
+    }
+    .contactus2{
+        top:500px;
+        margin-left: -300px;
+        border: none;    
+    }
+    .mail{
+        
+    }
+    .whatsapp{
+        
+    }
+
+  }
+.whatsapp{
+    margin-top: 160px;
+    padding-left: 160px;
+    margin-bottom: 70px;
+}
+.mail{
+    margin-bottom: 110px;
+    padding-left: 160px;
+    padding-top: 150px;
+    border-top: 3px solid rgb(246, 246, 246);
+    width: 550px;
+}
+.contactus2{
+    position: absolute;
+    height: 100hv;
+    border-left: 3px solid rgb(246, 246, 246);
+    left: 65%;
+}
+.logo{
+    margin-left: 80px;
+    font-size: x-large;
+}
+.mail h4{
+    margin-left: 15px;
+}
+.whatsapp h4{
+    margin-left: 15px;
+}

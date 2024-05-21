@@ -1,0 +1,54 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width:75px;
+    background-color: #ffffff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 1px 1px  #d4d4d4;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+ 
+  
+  .first{
+    margin-top:10px;
+    font-size: x-large;
+  }
+  .second{
+    margin-top:200px;
+    font-size: x-large;
+  }
+  .third{
+    margin-top: 180px;
+    font-size: x-large;
+    width:70px;
+    
+  }
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      top: -200px;
+      position: relative;
+      margin-top: 10px;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+    
+  }
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+
+  .sidebar{
+    margin-top: 10px;
+  }
+  }
